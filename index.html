@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Local Weather</title>
+
+		<!--Css files and CDN-->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Current Local Weather</a>
+				</div>		
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#" id="toggle"><i class="fa fa-cloud"></i> Celsius/ Fahrenheit</a></li>
+				</ul>
+			</nav>
+			<div class="spacer"></div><!--spacer-->
+			<div class="block">
+				<h1 class="text-center"><span id="currentTemp"></span>....</h1><br>
+				<h1 class="text-center"><span id="currentWeather"></span>....</h1><br>
+				Country: <span id="country"></span><br>
+				City: <span id="city"></span><br>
+				Latitude: <span id="latitude"></span><br>
+				longitude: <span id="longitude"></span><br>
+			</div><!--block-->
+			<div class="spacer"></div><!--spacer-->
+		</div><!--container-fluid-->
+
+
+		<!--JS Files-->
+		<script
+		  src="https://code.jquery.com/jquery-3.3.1.min.js"
+		  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		  crossorigin="anonymous">	  	
+		</script>
+		<script 
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+		</script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>

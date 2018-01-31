@@ -1,0 +1,22 @@
+body{
+	background:no-repeat center center fixed;
+	background-size: cover;
+	background-image: url('https://images.pexels.com/photos/55787/pexels-photo-55787.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+}
+
+.spacer{
+	padding: 5%;
+}
+
+.block{
+	background-color: #000;
+    opacity: 0.75;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 50px;
+    padding-bottom: 5%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
